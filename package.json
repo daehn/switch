@@ -1,7 +1,7 @@
 {
   "name": "homeautomation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node app to controll 433mhz switches connected to a raspberry pi",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.12.0",
@@ -12,6 +12,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Silvan Dähn",
+  "license": "ISC",
+  "repository" : { 
+    "type": "git",
+    "url": "https://github.com/daehn/switch"
+  }
 }
