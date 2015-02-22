@@ -1,2 +1,12 @@
 # switch
-Node app to controll 433mhz switches connected to a raspberry pi
+
+__GET__ request JSON to controll a switch
+
+
+```json 
+{
+  "id" : 10110,
+  "unit" : 1,
+  "on" : true
+} 
+```
