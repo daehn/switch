@@ -7,7 +7,8 @@ var app = express()
 app.use(bodyParser.json());
 
 function puts(error, stdout, stderr) { 
-	console.log(stdout) 
+	if (stdout) {console.log(stdout)};
+	if (stderr) {console.log(stderr)};
 }
 
 function changeSwitch(id, unit, state) {

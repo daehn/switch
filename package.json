@@ -1,5 +1,5 @@
 {
-  "name": "homeautomation",
+  "name": "switch",
   "version": "1.0.0",
   "description": "Node app to controll 433mhz switches connected to a raspberry pi",
   "main": "server.js",
