@@ -12,8 +12,8 @@ __POST__ request JSON body to controll a switch looks like this:
 
 ```json
 {
-  "id" : 10110,
-  "unit" : 1,
+  "id" : "10110",
+  "unit" : "1",
   "on" : true
 }
 ```
