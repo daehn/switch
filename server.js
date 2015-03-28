@@ -14,7 +14,7 @@ function puts(error, stdout, stderr) {
 function changeSwitch(id, unit, state) {
 	var stateString = state ? "1" : "0"
 	var params = id + " " + unit + " " + stateString
-	exec("cd ../rcswitch-pi/ && sudo ./send " + params, puts)
+	exec("sudo rcswitch-pi/send " + params, puts)
 }
 
 app.get('/', function (req, res) {

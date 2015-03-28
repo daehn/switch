@@ -1,0 +1,6 @@
+[submodule "rcswitch-pi"]
+	path = rcswitch-pi
+	url = https://github.com/r10r/rcswitch-pi
+[submodule "wiringPi"]
+	path = wiringPi
+	url = git://git.drogon.net/wiringPi
