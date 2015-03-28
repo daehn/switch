@@ -3,7 +3,14 @@
 ### Setup
 In order to controll 433mhz transmitters connected to your Raspberry pi, switch uses [rcswitch-pi](https://github.com/r10r/rcswitch-pi) and [wiringpi](https://projects.drogon.net/raspberry-pi/wiringpi/download-and-install/).
 
-Run `rake bootstrap` to install all necessary dependencies.
+You can `$ rake bootstrap` to install all necessary dependencies automatically,
+alternativly you can install the node dependencies and submodules manually:
+
+``` 
+$ sudo npm install
+$ git submodule init && git submodule update
+```
+Afterwards follow the instructions on how to build wiringPi and rcswitch-pi via the links above.
 
 ### Hardware
 

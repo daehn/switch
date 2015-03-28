@@ -3,7 +3,7 @@ require 'rake'
 desc 'Bootstrap the switch app'
 task :bootstrap do
   title('Downloading and installing dependencies')
-  sh 'npm install'
+  sh 'sudo npm install'
   sh 'git submodule init && git submodule update'
   sh 'cd wiringPi && ./build && cd ..'
   sh 'cd rcswitch-pi && make send -lwiringPi && cd ..'
