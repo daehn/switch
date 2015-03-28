@@ -5,6 +5,10 @@ In order to controll 433mhz transmitters connected to your Raspberry pi, switch 
 
 Run `rake bootstrap` to install all necessary dependencies.
 
+### Hardware
+
+I'm using a 433Mhz transmitter like [this](http://www.amazon.com/receiver-Superregeneration-Wireless-Transmitter-Burglar/dp/B008A4UWK6). There are several good tutorials online on how to connect the transmitter to a Raspberry pi. I also will add a sketch for the connections to this readme soon. 
+
 ### Controlling the switches
 
 To control a switch you need to pass the id, unit and state of the switch in the request body. An example
